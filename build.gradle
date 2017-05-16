@@ -56,7 +56,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:recyclerview-v7:25.3.1'
-    testCompile 'junit:junit:4.12'
     compile 'me.drakeet.materialdialog:library:1.2.2'
     compile 'com.alibaba:arouter-api:1.2.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2'
