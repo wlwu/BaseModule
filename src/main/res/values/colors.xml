@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_login_normal">#1FC59D</color>
+    <color name="btn_login_pressed">#12a782</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="primaryColor">#1FC59D</color>
+    <color name="white_background">#ffffff</color>
+    <color name="light_gray">#f8f8f8</color>
+    <color name="devide_line">#adadad</color>
+    <color name="gray">#ededed</color>
+    <color name="font_color_black">#262626</color>
+    <color name="font_color_red">#fb0000</color>
+    <color name="accent_material_light">#ef0000</color>
+    <color name="tab_hl">#36373b</color>
+    <color name="tab_nor">#777777</color>
+    <color name="font_color_gray">#8e8e8e</color>
+    <color name="main_bg_color">#303338</color>
+    <color name="pop_select">#8000</color>
+    <color name="new_Order_bg">#D7F0EC</color>
+
+    <color name="tab_green_bg">#DEF5EF</color>
+    <color name="tab_gray_bg">#e8e8e8</color>
+    <color name="tab_red_bg">#FEDADA</color>
+    <color name="tab_yellow_bg">#FFF6D9</color>
+    <color name="tab_gray_font">#454545</color>
+    <color name="tab_green_font">#195344</color>
+    <color name="tab_red_font">#b10f0d</color>
+    <color name="tab_yellow_font">#F39a00</color>
+
+    <color name="common_dark">#3A3A48</color>
+    <color name="common_gray">#d1d1d1</color>
+    <color name="common_title">#959599</color>
+    <color name="divider_color">#cccccc</color>
+
+
+    <color name="white">#ffffff</color>
+
+    <color name="open_mode_selected">#F2F6F6</color>
+    <color name="device_detail_divider_color">#CCCCCC</color>
+    <color name="device_detail_primary_color">#959599</color>
+    <color name="black">#000000</color>
+    <color name="device_signal_strong_color">#26C8A1</color>
+    <color name="device_signal_bad_color">#D6111C</color>
+
+    <color name="label_orange">#ED6705</color>
+    <color name="label_red">#F03637</color>
+    <color name="label_yellow">#ECC008</color>
+    <color name="label_green">#1FC69E</color>
+    <color name="label_gray">#ABABAB</color>
+    <color name="label_blue">#05ABED</color>
+    <color name="label_lite_green">#7ABE23</color>
+
+
+    <color name="order_fragment_divider">#CCCCCC</color>
+</resources>
