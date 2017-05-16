@@ -32,6 +32,12 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+}
 allprojects {
     repositories {
         jcenter()
