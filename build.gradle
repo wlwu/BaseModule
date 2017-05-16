@@ -63,7 +63,4 @@ classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
 classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
-
-classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
-classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 }
