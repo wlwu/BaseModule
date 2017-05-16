@@ -30,7 +30,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -38,11 +38,11 @@ dependencies {
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:recyclerview-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile files('libs/eventbus-3.0.0.jar')
     compile 'me.drakeet.materialdialog:library:1.2.2'
-    compile name: 'advrecyclerview', ext: 'aar'
     compile 'com.alibaba:arouter-api:1.2.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.1.2'
     compile 'com.jakewharton:butterknife:7.0.1'
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile files('libs/eventbus-3.0.0.jar')
+    compile name: 'advrecyclerview', ext: 'aar'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-3"
 }
