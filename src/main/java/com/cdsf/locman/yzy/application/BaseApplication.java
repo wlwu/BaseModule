@@ -2,8 +2,6 @@ package com.cdsf.locman.yzy.application;
 
 import android.app.Application;
 
-import com.alibaba.android.arouter.launcher.ARouter;
-
 /**
  * Created by wuwenliang on 2017/5/10.
  */
