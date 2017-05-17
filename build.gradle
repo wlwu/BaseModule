@@ -1,6 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -38,5 +36,4 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     compile name: 'advrecyclerview', ext: 'aar'
     compile files('libs/eventbus-3.0.0.jar')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-3"
 }
