@@ -24,6 +24,8 @@ repositories {
     flatDir {
         dirs 'libs'
     }
+    jcenter()
+    maven { url "https://jitpack.io" }
 }
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -36,10 +38,4 @@ dependencies {
     compile 'com.jakewharton:butterknife:7.0.1'
     compile name: 'advrecyclerview', ext: 'aar'
     compile files('libs/eventbus-3.0.0.jar')
-}
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
 }
